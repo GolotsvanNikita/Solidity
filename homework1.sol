@@ -106,7 +106,8 @@ contract TaskThree
     } 
 }
 
-contract TaskFour {
+contract TaskFour
+{
     struct User
     {
         string name;
