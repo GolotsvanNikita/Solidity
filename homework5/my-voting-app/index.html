@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voting</title>
+  </head>
+  <body>
+    <button id="connectBtn">Connect</button>
+    <p id="status">Not connected</p>
+
+    <hr>
+
+    <div class="card">
+        <h3>Create New Poll</h3>
+        <input type="text" id="questionInput" placeholder="Question"><br>
+        <input type="text" id="optionsInput" placeholder="Options (',' separated)"><br>
+        <button id="createPollBtn">Create Poll</button>
+    </div>
+
+    <hr>
+    <h2>Active Polls</h2>
+    <div id="pollsContainer">Loading...</div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
