@@ -1,0 +1,76 @@
+:root
+{
+  background-color: #8b8b8b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body { margin: 0; padding: 0; }
+
+.container
+{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.account-badge
+{
+  background: #e5e7eb;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.card
+{
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+textarea, input
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+textarea { resize: vertical; min-height: 80px; }
+
+button { cursor: pointer; border: none; font-weight: bold; transition: 0.2s; }
+.primary-btn { background: #f0f1f3; color: rgb(0, 0, 0); padding: 10px 25px; border-radius: 8px; }
+.primary-btn:hover { background: #b9b9b9; }
+.secondary-btn { background: #f0f1f3; color: rgb(0, 0, 0); padding: 10px 25px; border-radius: 8px; margin-left: 10px; }
+.secondary-btn:hover { background: #b9b9b9; }
+
+.post-header
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #f3f4f6;
+  padding-bottom: 10px;
+}
+.author { font-size: 0.85em; color: #6b7280; }
+.content { font-size: 1.1em; margin-bottom: 15px; }
+
+.delete-btn { background: #ef4444; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.8em; }
+.delete-btn:hover { background: #dc2626; }
+
+.like-btn { background: #f3f4f6; padding: 8px 12px; border-radius: 20px; display: flex; align-items: center; gap: 5px; }
+.like-btn:hover { background: #e5e7eb; }
+.like-btn.liked { background: #fee2e2; color: #dc2626; }
+
+.filter-controls { display: flex; }
