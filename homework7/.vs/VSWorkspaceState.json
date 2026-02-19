@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\contracts",
+    "\\my-dapp",
+    "\\my-dapp\\src",
+    "\\my-dapp\\src\\assets",
+    "\\my-dapp\\src\\lib",
+    "\\my-dapp\\src\\lib\\contracts",
+    "\\my-dapp\\src\\lib\\contracts\\abi",
+    "\\scripts"
+  ],
+  "SelectedNode": "\\contracts\\Counter.sol",
+  "PreviewInSolutionExplorer": false
+}
